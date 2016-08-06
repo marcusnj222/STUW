@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		230C20C51D3A914C0088904B /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 230C20C41D3A914C0088904B /* GraphView.m */; };
+		237746DF1D33138C00DDC739 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 237746DE1D33138C00DDC739 /* Student.m */; };
 		23CE31221D3065D700B91D8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CE31211D3065D700B91D8A /* AppDelegate.m */; };
 		23CE31251D3065D700B91D8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CE31241D3065D700B91D8A /* main.m */; };
 		23CE31281D3065D700B91D8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23CE31271D3065D700B91D8A /* ViewController.m */; };
@@ -34,6 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		230C20C31D3A914C0088904B /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		230C20C41D3A914C0088904B /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		237746DD1D33138C00DDC739 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		237746DE1D33138C00DDC739 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		23CE311D1D3065D700B91D8A /* StuW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CE31201D3065D700B91D8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23CE31211D3065D700B91D8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		230C20C61D3A9B6B0088904B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				230C20C31D3A914C0088904B /* GraphView.h */,
+				230C20C41D3A914C0088904B /* GraphView.m */,
+				237746DD1D33138C00DDC739 /* Student.h */,
+				237746DE1D33138C00DDC739 /* Student.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		23CE31141D3065D700B91D8A = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +120,7 @@
 				23CE31211D3065D700B91D8A /* AppDelegate.m */,
 				23CE31261D3065D700B91D8A /* ViewController.h */,
 				23CE31271D3065D700B91D8A /* ViewController.m */,
+				230C20C61D3A9B6B0088904B /* Classes */,
 				23CE31291D3065D700B91D8A /* Assets.xcassets */,
 				23CE312B1D3065D700B91D8A /* Main.storyboard */,
 				23CE312E1D3065D700B91D8A /* Info.plist */,
@@ -267,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				23CE31281D3065D700B91D8A /* ViewController.m in Sources */,
+				230C20C51D3A914C0088904B /* GraphView.m in Sources */,
 				23CE31251D3065D700B91D8A /* main.m in Sources */,
 				23CE31221D3065D700B91D8A /* AppDelegate.m in Sources */,
+				237746DF1D33138C00DDC739 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +509,7 @@
 				23CE31491D3065D700B91D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23CE314A1D3065D700B91D8A /* Build configuration list for PBXNativeTarget "StuWTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +518,7 @@
 				23CE314C1D3065D700B91D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23CE314D1D3065D700B91D8A /* Build configuration list for PBXNativeTarget "StuWUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +527,7 @@
 				23CE314F1D3065D700B91D8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
